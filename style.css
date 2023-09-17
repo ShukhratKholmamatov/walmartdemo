@@ -168,6 +168,7 @@ span{
     }
 
     .structure h2{
+        margin-top: 110px;
         font-size: 30px;
     }
 
@@ -184,5 +185,23 @@ span{
     .structure .img_groups img{
         width: 100%;
     }
+}
+
+@media only screen and (max-width:450px){
+
+    .navbar .logo{
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar .logo img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar ul li{
+        margin-left: 5px;
+    }
+
 }
 
